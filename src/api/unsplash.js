@@ -8,7 +8,7 @@ export const fetchPhotos = (page = 1) => {
     params: {
       client_id: API_KEY,
       page,
-      per_page: 40,
+      per_page: 100,
     },
   });
 };
